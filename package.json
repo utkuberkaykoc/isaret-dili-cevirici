@@ -1,0 +1,76 @@
+{
+  "name": "isaret-dili-cevirici",
+  "version": "1.0.0",
+  "description": "Türkçe metinleri TDK işaret dili görselleri ile görsel olarak temsil eden modern web uygulaması. Gerçek zamanlı çeviri, responsive tasarım ve dark mode desteği ile erişilebilir bir deneyim sunar.",
+  "private": true,
+  "keywords": [
+    "isaret-dili",
+    "turkce",
+    "tdk",
+    "ceviri",
+    "nextjs",
+    "react",
+    "typescript",
+    "tailwindcss",
+    "accessibility",
+    "gorsel-ceviri"
+  ],
+  "author": {
+    "name": "Berkay Koç",
+    "email": "iletisim@berkaykoc.net",
+    "url": "https://github.com/utkuberkaykoc"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/utkuberkaykoc/isaret-dili-cevirici.git"
+  },
+  "bugs": {
+    "url": "https://github.com/utkuberkaykoc/isaret-dili-cevirici/issues"
+  },
+  "homepage": "https://github.com/utkuberkaykoc/isaret-dili-cevirici#readme",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "next": "15.4.6",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4.1.12",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.4.6",
+    "prettier": "^3.0.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "prettier": {
+    "semi": true,
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "printWidth": 80,
+    "tabWidth": 2
+  },
+  "browserslist": [
+    ">0.3%",
+    "not dead",
+    "not op_mini all"
+  ]
+}
